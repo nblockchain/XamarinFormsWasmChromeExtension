@@ -1,8 +1,11 @@
-﻿// Learn more about F# at http://fsharp.org
+﻿module Frontend.Program
 
-open System
+open Ooui
+open Xamarin.Forms
 
 [<EntryPoint>]
 let main argv =
-    printfn "Hello World from F#!"
+    Forms.Init()
+    let page = new WelcomePage()
+    UI.Publish("/", page.GetOouiElement());
     0 // return an integer exit code
