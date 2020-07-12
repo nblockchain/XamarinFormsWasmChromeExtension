@@ -1,0 +1,4 @@
+[submodule "Ooui"]
+	path = Ooui
+	url = https://github.com/traxium/Ooui.git
+	branch = dev
