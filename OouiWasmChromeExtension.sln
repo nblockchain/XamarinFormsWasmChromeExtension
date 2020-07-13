@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "GWallet.Backend.NetStandard", "geewallet\src\GWallet.Backend.NetStandard\GWallet.Backend.NetStandard.fsproj", "{2826D737-D8AE-4F32-ACE6-1037F3AB5DE6}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "GWallet.Frontend.XF", "geewallet\src\GWallet.Frontend.XF\GWallet.Frontend.XF.fsproj", "{DEC1158B-5926-40D7-8A85-9694AE0A0256}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +42,14 @@ Global
 		{3193BB0C-F8F1-4CF7-805B-9CA59851CD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3193BB0C-F8F1-4CF7-805B-9CA59851CD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3193BB0C-F8F1-4CF7-805B-9CA59851CD82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2826D737-D8AE-4F32-ACE6-1037F3AB5DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2826D737-D8AE-4F32-ACE6-1037F3AB5DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2826D737-D8AE-4F32-ACE6-1037F3AB5DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2826D737-D8AE-4F32-ACE6-1037F3AB5DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC1158B-5926-40D7-8A85-9694AE0A0256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC1158B-5926-40D7-8A85-9694AE0A0256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC1158B-5926-40D7-8A85-9694AE0A0256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC1158B-5926-40D7-8A85-9694AE0A0256}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

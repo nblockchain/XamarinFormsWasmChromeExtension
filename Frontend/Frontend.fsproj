@@ -6,11 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="WelcomePage.xaml.fs">
-      <DependentUpon>WelcomePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Initialization.fs" />
-    <Compile Include="App.xaml.fs" />
     <Content Include="geewallet128.png" CopyToOutputDirectory="Always" Link="dist\%(RecursiveDir)%(Filename)%(Extension)" />
     <Content Include="manifest.json" CopyToOutputDirectory="Always" Link="dist\%(RecursiveDir)%(Filename)%(Extension)" />
     <Compile Include="Program.fs" />
@@ -21,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\geewallet\src\GWallet.Frontend.XF\GWallet.Frontend.XF.fsproj" />
     <ProjectReference Include="..\Ooui\Ooui.Forms\Ooui.Forms.csproj" />
     <ProjectReference Include="..\Ooui\Ooui.Wasm.Build.Tasks\Ooui.Wasm.Build.Tasks.csproj" />
     <ProjectReference Include="..\Ooui\Ooui\Ooui.csproj" />
