@@ -9,6 +9,8 @@
     <Compile Include="WelcomePage.xaml.fs">
       <DependentUpon>WelcomePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Initialization.fs" />
+    <Compile Include="App.xaml.fs" />
     <Content Include="geewallet128.png" CopyToOutputDirectory="Always" Link="dist\%(RecursiveDir)%(Filename)%(Extension)" />
     <Content Include="manifest.json" CopyToOutputDirectory="Always" Link="dist\%(RecursiveDir)%(Filename)%(Extension)" />
     <Compile Include="Program.fs" />
