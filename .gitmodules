@@ -1,7 +1,3 @@
-[submodule "Ooui"]
-	path = Ooui
-	url = https://github.com/traxium/Ooui.git
-	branch = dev
 [submodule "geewallet"]
 	path = geewallet
 	url = https://gitlab.com/nblockchain/geewallet.git
