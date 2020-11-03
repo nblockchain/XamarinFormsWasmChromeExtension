@@ -8,7 +8,7 @@ This is a Chrome extension (written in C#) that shows a Xamarin.Forms page insid
 1. Edit index.html to include `<link rel="stylesheet" type="text/css" href="./stylesheet.css" />`.
 
 ## How to install:
-1. In Chrome go to `chrome://extensions/`
+1. In Brave/Chrome go to `chrome://extensions/`
 1. Enable [Developer mode] (if not enabled)
 1. Click [Load unpacked]
 1. Go inside the publilshed folder above
