@@ -13,8 +13,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="..\App8.UWP\Assets\*.png" Link="Assets\%(FileName)%(Extension)" />
-    <Content Include="..\App8.UWP\*.png" Link="%(FileName)%(Extension)" />
+    <Content Include="..\App8\Assets\*.png" Link="Assets\%(FileName)%(Extension)" />
   </ItemGroup>
   <ItemGroup>
     <!-- CSS files are automatically added as EmbeddedResource by Xamarin.Forms -->
