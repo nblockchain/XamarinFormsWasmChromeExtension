@@ -1,0 +1,22 @@
+name: windows
+
+on: [push, pull_request]
+
+jobs:
+  windows_build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup .NET Core SDK
+      uses: actions/setup-dotnet@v1.7.2
+      with:
+        dotnet-version: 3.1.407
+    - name: Build Project
+      shell: cmd
+      run: make.bat
+    - uses: actions/upload-artifact@v2
+      with:
+        name: release
+        path: publish_result
+
+
